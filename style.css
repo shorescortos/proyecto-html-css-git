@@ -1,14 +1,6 @@
-* {
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-}
 
 body{
-    background: url(https://images.unsplash.com/photo-1517400508447-f8dd518b86db?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    color: #5D6063;
+    color:white;
     background-color: #EAEDF0;
     font-family: "Helvetica", "Arial", sans-serif;
     font-size: 16px;
@@ -18,28 +10,68 @@ body{
     align-items: center;
 }
 
-.speaker-form-header{
-    color: white; 
+
+.fondo{
+    background: url(https://images.unsplash.com/photo-1517400508447-f8dd518b86db?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
     text-align: center;
-    margin: auto;
-    width: 50%;
-    padding: 50px;  
+    height: 100%;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
+
+.hoteles{
+    background: url(https://images.unsplash.com/photo-1582301217431-c5f83dfd8ec7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.vuelos{
+    background: url(https://images.unsplash.com/photo-1551748629-08d916ed6682?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1929&q=80);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+    
 
 .form-row{
+    text-align: center;
     color: white;
     background-color: red;
-    margin-bottom: 40px;
-    list-style: none solid black;
-    display: flex;
-    justify-content: flex-start;
+    display: inline;
     flex-direction: row-reverse;
-    flex-wrap: wrap;
 }
 
-.text-align:left{
+.caja{
     color: #5D6063;
     width: 100%;
     padding: 10px;
     outline: none;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+    box-sizing: border-box;
+    border: solid black;
 }
